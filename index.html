@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stock.css">
+    <title>stock control</title>
+</head>
+<body>
+    <header class="creator">
+        <div class="contenedor_creador">
+            <div class="datos-ingresados">
+            <input class="input_data" type="text" name="tarea_nombre" id="tarea_nombre" placeholder="inserte actividad">
+            <select class="input_data" name="prioridad" id="prioridad">
+                <option value="prioridad">prioridad</option>
+                <option value="baja" id="baja">baja</option>
+                <option value="media" id="media">media</option>
+                <option value="alta" id="alta">alta</option>
+            </select>
+            <input class="input_data" type="date" id="fecha">
+            </div>
+            <div class="boton_container">
+                <h1 class="boton">agregar</h1>
+            </div>
+        </div>  
+    </header>
+    <main class="main_contenedor">
+        <div class="item_container">
+
+        </div>
+        <div class="contenedor_item-completos">
+            <h2>tareas completadas</h2>
+        </div>
+    </main>
+    <script src="stock.js"></script>
+</body>
+</html>
